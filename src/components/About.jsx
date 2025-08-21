@@ -32,7 +32,7 @@ export default function Navbar() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="src/assets/shiyas.jpeg"
           />
         </div>
       </div>
