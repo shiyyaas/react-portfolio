@@ -3,12 +3,12 @@
 
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "First Portfolio",
+    subtitle: "HTML, CSS, and JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "Images/P-recipe.PNG",
-    link: "https://reactbootcamp.com",
+      "The first website I built and succesfully deployed. It was the times I actually understands how to deploy. This website is entirely built with HTML, CSS, and JavaScript. I also gave it features like dark mode and mobile responsiveness. It was fun making it.",
+    image: "Images/Bportfolio.png",
+    link: "https://shiiyas.vercel.app",
   },
   {
     title: "React Tracks",
@@ -25,14 +25,6 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "Images/P-recipe.PNG",
     link: "https://jsbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "Images/rawportfolio.PNG",
-    link: "https://pythonbootcamp.com",
   },
 ];
 
