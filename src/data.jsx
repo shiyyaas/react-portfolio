@@ -19,12 +19,12 @@ export const projects = [
     link: "https://shiyyas.vercel.app",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "P-recipe",
+    subtitle: "HTML and CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This is my first Actual project , the use orientended website . Recipe website , with Puttu , Appam , Dosha . I made multiple pages and css files . I worked on this project like it is an actual project.",
     image: "Images/P-recipe.PNG",
-    link: "https://jsbootcamp.com",
+    link: "https://p-recipe.vercel.app",
   },
 ];
 
