@@ -11,9 +11,8 @@ export default function Projects() {
             Projects I've Done
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            These projects shows my joureny. If you wanna see more of my projects, Here <br />
+            <a href="https://github.com/shiyyaas" target="_blank" className="font-bold">Github</a>
           </p>
         </div>
         <div className="flex flex-wrap m-4">
