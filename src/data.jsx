@@ -11,12 +11,12 @@ export const projects = [
     link: "https://shiiyas.vercel.app",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Bootstrap portfolio",
+    subtitle: "Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "Images/rawportfolio.PNG",
-    link: "https://reedbarger.com",
+      "Those times I was going to a course . And I learned about Bootstrap , that's how I made this portfolio.I Actually learned so many things from that portfolio. I understand the difference b/w bootstarp and tailwind css ,through my joureny of buliting this project",
+    image: "Images/Bpreview.png",
+    link: "https://shiyyas.vercel.app",
   },
   {
     title: "DevChat",
