@@ -1,4 +1,4 @@
-# 🚀 Shiyas's React Portfolio
+# 🚀My React Portfolio
 
 Welcome to my personal portfolio website, built with **React** and **Vite**!  
 Here you can explore my journey as a developer, view my projects, discover my skills, and get in touch.
