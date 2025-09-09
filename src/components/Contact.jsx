@@ -1,6 +1,6 @@
 // src/components/Contact.js
 
-// import React from "react";
+import React from "react";
 
 export default function Contact() {
 
@@ -30,7 +30,7 @@ export default function Contact() {
   };
 
   return (
-        <section id="contact" className="relative">
+    <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
@@ -67,8 +67,8 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form
-
+      <form 
+          onSubmit={onSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Let's Talk
@@ -77,6 +77,18 @@ export default function Contact() {
             As I said, I'm a listener. I'm eager to hear about your project and
             how I can help. Let's connect!
           </p>
+          {/* Display result message */}
+          {result && (
+            <div className={`mb-4 p-3 rounded ${
+              result.includes("Successfully") 
+                ? "bg-green-900 text-green-100" 
+                : result.includes("Sending") 
+                ? "bg-blue-900 text-blue-100"
+                : "bg-red-900 text-red-100"
+            }`}>
+              {result}
+            </div>
+          )}
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
